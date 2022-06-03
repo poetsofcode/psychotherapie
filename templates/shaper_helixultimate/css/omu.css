@@ -1,0 +1,74 @@
+/*==========================================
+                OMU CSS
+==========================================*/
+.page-header {
+    display: none;
+}
+
+@font-face { 
+    font-family: 'Dimbo-Regular';
+    src: url('../fonts/Dimbo-Regular.ttf') format("truetype");
+}
+
+h1,
+h2,
+h3 {
+    font-family: 'Dimbo-Regular';
+}
+
+.error-code,
+.error-message {
+	display: none;
+}
+
+/*==========================================
+                Header
+==========================================*/
+.logo img {
+    padding: 10px;
+}
+/*==========================================
+                Footer & Credits
+==========================================*/
+.credits {
+	background: #333;
+	color: #fff;
+	font-size: 14px;
+	text-align: center;
+}
+
+.credits a {
+	color: #fff;
+	font-size: 14px;
+}
+
+.credits a:hover {
+	color: #fff !important;
+	text-decoration: underline;
+}
+
+.credits-omu {
+	float: right;
+}
+
+@media (max-width: 1200px) {
+#sp-footer1 {
+    text-align: center;
+}
+
+.credits-omu {
+	float: none;
+}
+}
+
+@media (min-width: 768px) {
+.hide-big {
+	display: none;
+}
+}
+
+@media (max-width: 768px) {
+.hide-small {
+	display: none;
+}
+}
